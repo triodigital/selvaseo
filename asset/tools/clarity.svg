@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="44" height="44" x="2" y="2" rx="10" fill="#0078D4"/>
+  <!-- Clarity eye / session focus symbol -->
+  <path d="M24 14c-8 0-14 10-14 10s6 10 14 10 14-10 14-10-6-10-14-10z" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="24" r="5" fill="#FFFFFF"/>
+  <circle cx="24" cy="24" r="2.5" fill="#0078D4"/>
+</svg>

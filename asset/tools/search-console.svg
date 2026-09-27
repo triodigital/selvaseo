@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <path fill="#4285F4" d="M38 6H10C7.79 6 6 7.79 6 10v28c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4z"/>
+  <!-- Magnifying glass / search -->
+  <circle cx="21" cy="21" r="8" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+  <path d="M27 27l8 8" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Small Google colored status bar accents inside -->
+  <circle cx="13" cy="13" r="2" fill="#EA4335"/>
+  <circle cx="18" cy="13" r="2" fill="#FBBC05"/>
+  <circle cx="23" cy="13" r="2" fill="#34A853"/>
+  <!-- Chart line inside magnifier -->
+  <path d="M16 23l3-3 3 2 4-5" fill="none" stroke="#FBBC05" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

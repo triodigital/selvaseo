@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="toolsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="wrenchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DB9558"/>
+      <stop offset="100%" stop-color="#B87333"/>
+    </linearGradient>
+    <filter id="toolsGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#6366F1" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient Light -->
+  <circle cx="32" cy="32" r="22" fill="#EDE9FE" opacity="0.6"/>
+
+  <!-- High-Tech Gear Base -->
+  <g filter="url(#toolsGlow)">
+    <path fill="url(#toolsGrad)" d="M32 18 C30.2 18 28.5 18.5 27 19.3 L25.5 16.7 C24.9 15.6 23.5 15.2 22.4 15.8 L18.9 17.8 C17.8 18.4 17.4 19.8 18 20.9 L19.5 23.5 C18.7 25 18.2 26.7 18 28.5 L15 28.5 C13.8 28.5 12.8 29.5 12.8 30.7 V34.7 C12.8 35.9 13.8 36.9 15 36.9 L18 36.9 C18.2 38.7 18.7 40.4 19.5 41.9 L18 44.5 C17.4 45.6 17.8 47 18.9 47.6 L22.4 49.6 C23.5 50.2 24.9 49.8 25.5 48.7 L27 46.1 C28.5 46.9 30.2 47.4 32 47.4 C33.8 47.4 35.5 46.9 37 46.1 L38.5 48.7 C39.1 49.8 40.5 50.2 41.6 49.6 L45.1 47.6 C46.2 47 46.6 45.6 46 44.5 L44.5 41.9 C45.3 40.4 45.8 38.7 46 36.9 L49 36.9 C50.2 36.9 51.2 35.9 51.2 34.7 V30.7 C51.2 29.5 50.2 28.5 49 28.5 L46 28.5 C45.8 26.7 45.3 25 44.5 23.5 L46 20.9 C46.6 19.8 46.2 18.4 45.1 17.8 L41.6 15.8 C40.5 15.2 39.1 15.6 38.5 16.7 L37 19.3 C35.5 18.5 33.8 18 32 18 Z"/>
+    <!-- Gear Hollow Center -->
+    <circle cx="32" cy="32.7" r="8" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Precision Diagonal Wrench -->
+  <path d="M42 16 C39.5 17 38 19.5 38 22 C38 23.2 38.4 24.3 39 25.2 L22 42.2 C21.1 41.6 20 41.2 18.8 41.2 C16.3 41.2 14.3 43.2 14.3 45.7 C14.3 46.9 14.8 48 15.6 48.8 L18.8 45.6 C19.2 45.2 19.8 45.2 20.2 45.6 C20.6 46 20.6 46.6 20.2 47 L17 50.2 C17.8 51 18.9 51.5 20.1 51.5 C22.6 51.5 24.6 49.5 24.6 47 C24.6 45.8 24.2 44.7 23.6 43.8 L40.6 26.8 C41.5 27.4 42.6 27.8 43.8 27.8 C46.3 27.8 48.3 25.8 48.3 23.3 C48.3 20.8 46.3 18.8 43.8 18.8 C43.2 18.8 42.6 18.9 42 19.1 Z" fill="url(#wrenchGrad)"/>
+
+  <!-- Code Dots Indicator -->
+  <circle cx="32" cy="32.7" r="3" fill="#6366F1"/>
+</svg>

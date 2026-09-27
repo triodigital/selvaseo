@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="44" height="44" x="2" y="2" rx="10" fill="#E8F4FD"/>
+  <!-- Code brackets in Schema blue/orange -->
+  <path d="M16 16 L8 24 L16 32" fill="none" stroke="#0073AA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 16 L40 24 L32 32" fill="none" stroke="#0073AA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Schema slash / key -->
+  <line x1="27" y1="13" x2="21" y2="35" stroke="#EE4035" stroke-width="4" stroke-linecap="round"/>
+  <!-- Structured data node dot -->
+  <circle cx="24" cy="24" r="2.5" fill="#FBBC04"/>
+</svg>
